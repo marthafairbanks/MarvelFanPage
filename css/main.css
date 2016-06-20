@@ -1,0 +1,106 @@
+header {
+  font-family: 'Bangers';
+  font-size: 350%;
+  color: #f7f8e3; }
+  header .navBar {
+    width: 75%;
+    height: 100px;
+    margin-left: 20%; }
+    header .navBar ul {
+      margin-top: 2%;
+      list-style-type: none;
+      padding: 0px; }
+      header .navBar ul li {
+        display: inline;
+        margin: 3.5%; }
+        header .navBar ul li :hover {
+          text-decoration: none;
+          cursor: pointer; }
+    header .navBar .threeD {
+      text-shadow: -1px 1px 0 #ccc, -2px 2px 0 #c9c9c9, -3px 3px 0 #bbb, -4px 4px 0 #b9b9b9, -5px 5px 0 #aaa, -6px 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), -1px 1px 3px rgba(0, 0, 0, 0.3), -3px 3px 5px rgba(0, 0, 0, 0.2), -5px 5px 10px rgba(0, 0, 0, 0.25), -10px 10px 10px rgba(0, 0, 0, 0.2), -20px 20px 20px rgba(0, 0, 0, 0.15); }
+
+.titleLine {
+  text-align: center;
+  color: transparent;
+  font-family: 'bangers';
+  font-size: 550%;
+  margin-left: 5%; }
+  .titleLine p {
+    background: url("../images/textBG.png");
+    background-repeat: repeat-x;
+    background-position: 0 center;
+    -webkit-font-smoothing: antialiased;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    -webkit-animation: BackgroundAnimated 25s linear infinite;
+    -moz-animation: BackgroundAnimated 25s linear infinite;
+    -ms-animation: BackgroundAnimated 25s linear infinite;
+    -o-animation: BackgroundAnimated 25s linear infinite;
+    animation: BackgroundAnimated 25s linear infinite; }
+
+@keyframes BackgroundAnimated {
+  from {
+    background-position: 0 center; }
+  to {
+    background-position: 100% center; } }
+
+@-webkit-keyframes BackgroundAnimated {
+  from {
+    background-position: 0 center; }
+  to {
+    background-position: 100% center; } }
+
+@-moz-keyframes BackgroundAnimated {
+  from {
+    background-position: 0 center; }
+  to {
+    background-position: 100% center; } }
+
+body {
+  background: url("../images/pageBG.png") no-repeat center top;
+  background-size: 100% auto;
+  height: 1865px; }
+  body .noPadding {
+    padding: 0px; }
+  body .characterWrapper {
+    width: 70%;
+    background-color: #f7f8e3;
+    opacity: .9;
+    border: 5px solid black;
+    box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.5);
+    margin-left: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    padding-top: 1%; }
+    body .characterWrapper .characterImage {
+      width: 30%;
+      display: inline-block;
+      margin: 1%; }
+      body .characterWrapper .characterImage img {
+        width: 100%;
+        border: 2px solid black; }
+      body .characterWrapper .characterImage figcaption {
+        text-transform: uppercase;
+        font-weight: bold; }
+  body .comicWrapper {
+    width: 70%;
+    margin-left: 25%;
+    background-color: #f7f8e3;
+    opacity: .9;
+    border: 5px solid black;
+    box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 10px; }
+    body .comicWrapper .comicImage {
+      width: 30%;
+      display: inline-block;
+      margin: 1%; }
+      body .comicWrapper .comicImage img {
+        width: 100%;
+        border: 2px solid black; }
+      body .comicWrapper .comicImage figcaption {
+        text-transform: uppercase;
+        font-weight: bold; }
